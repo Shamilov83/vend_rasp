@@ -8,6 +8,7 @@ pthread_t prog_p;			//проток программы
 uint8_t param_photo = 0;
 
 int main (void) {
+
 /*
 //потоки создаются при запуске программы печати
  pthread_create(step_mot_p, NULL, run_step_mot, NULL);
