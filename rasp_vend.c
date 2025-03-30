@@ -5,6 +5,13 @@ pthread_t step_mot_p;		//поток шагового двигателя
 pthread_t col_mot_p;		//поток колекторного дкигателя
 pthread_t prog_p;			//проток программы 
 
+
+ 
+ 
+ 
+
+
+
 uint8_t param_photo = 0;
 
 int main (void) {
