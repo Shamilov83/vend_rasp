@@ -12,6 +12,10 @@
 #include <unistd.h>
 #include <math.h>
 
+
+
+
+
 void *request_i2c(void *period);
 void *run_step_mot(void *arg);
 void *run_col_mot(void *arg);
